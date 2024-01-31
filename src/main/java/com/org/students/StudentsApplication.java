@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @SpringBootApplication
 @CrossOrigin
-
 public class StudentsApplication {
 
 	public static void main(String[] args) {

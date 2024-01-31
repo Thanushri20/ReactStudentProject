@@ -12,11 +12,11 @@ import lombok.Data;
 @Data
 @Entity
 public class Student {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-int id;
-String username;
-String password;
-String token;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	int id;
+	String username;
+	String password;
+	String token;
 
 }
